@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px 300px 150px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h4 {
+    color: #f9faf8;
+    font-size: 24px
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    padding: 5px 20px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.hero-text button {
+    border: 0;
+}
+
+.placeholder {
+    padding: 100px 150px;
+    background-color: #bdc8d3;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.box {
+    height: 200px;
+    width:200px;
+    border: 5px #3882f6 solid;
+    border-radius: 20px;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.illustration p {
+    text-align: center;
+    color: #1f2937;
+}
+
+article {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+ .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.thor {
+    text-align: right;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.cta {
+    width: 900px;
+    height: 100px;
+    background-color:#3882f6;
+    padding: 50px 100px;
+    margin: 100px;
+    align-self: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second {
+    align-self: center;
+}
+
+.sign-up {
+    align-self: center;
+}
+
+.sign-up button {
+    border: #f9faf8 2px solid;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 20px;
+}
